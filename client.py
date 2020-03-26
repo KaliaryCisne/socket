@@ -2,7 +2,7 @@ import socket
 
 from pip._vendor.distlib.compat import raw_input
 
-HOST = '192.168.11.3'  # Endereco IP do Servidor
+HOST = ''  # Endereco IP do Servidor
 PORT = 5000  # Porta que o Servidor esta
 udp = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
 dest = (HOST, PORT)
